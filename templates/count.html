@@ -1,0 +1,21 @@
+<h3>There Line you enter is</h3>
+<a href="{%  url 'home'  %}">Start again</a>
+
+<br />
+
+<br />
+
+
+{{  fulltext  }}
+
+<h4>The number of words in your line is {{ count }} </h4>
+<h2>
+{% for i,j in sortedlist %}
+
+{{ i }}-{{ j }}
+<br />
+
+
+
+{% endfor%}
+</h2>
